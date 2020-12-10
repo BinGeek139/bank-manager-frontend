@@ -1,0 +1,47 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-header-title {
+    margin: 0;
+    font-size: 2.3rem;
+    line-height: 50px;
+}
+
+.modal-body {
+    border-radius: 5px;
+    background-color: white;
+    margin: 10% auto;
+    position: relative;
+    z-index: 1;
+    padding: 0 30px 20px 30px;
+}
+
+.login-form {
+    width: 500px;
+}
+
+.login-form {
+    max-width: 360px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+.login-form-button {
+    width: 100%;
+}
